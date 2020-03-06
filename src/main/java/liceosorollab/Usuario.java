@@ -64,4 +64,7 @@ public class Usuario {
 		return edad;
 	}
 	
+	public String nombreMayusculas() {
+		return this.nombre.toUpperCase();
+	}
 }

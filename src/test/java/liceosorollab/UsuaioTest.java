@@ -35,4 +35,10 @@ private Usuario usuario;
 		
 		assertEquals(true,usuario.mayoriaEdad());
 	}
+	
+	@Test
+	public void comprobarIdentificador() {
+		assertEquals(18,usuario.getIdentificador());
+	}
+	
 }
