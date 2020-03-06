@@ -1,6 +1,7 @@
 package main.java.liceosorollab;
 
 import java.time.LocalDate;
+import java.time.Period;
 
 public class Usuario {
 	
@@ -54,5 +55,13 @@ public class Usuario {
 				+ ", identificador " + identificador;
 	}
 	
+	public boolean mayoriaEdad() {
+		boolean edad = true;
+		LocalDate ahora = LocalDate.now();
+		
+		Period periodo = Period.between(fechaNacimiento, ahora);
+		edad = 18<periodo.getYears();
+		return edad;
+	}
 	
 }

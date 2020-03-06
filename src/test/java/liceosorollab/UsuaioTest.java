@@ -29,4 +29,10 @@ private Usuario usuario;
 	public void comprobarNombreCompleto() {
 		assertEquals("Yanella Astudillo Ortiz", usuario.getNombre()+ " "+usuario.getApellidos());
 	}
+	
+	@Test
+	public void comprobarMayorDeEdad() {
+		
+		assertEquals(true,usuario.mayoriaEdad());
+	}
 }
