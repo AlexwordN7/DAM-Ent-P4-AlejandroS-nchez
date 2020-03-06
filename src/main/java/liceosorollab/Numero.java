@@ -41,5 +41,11 @@ public class Numero {
 		}
 		return correcto;
 	}
+	
+	public int suma() {
+		int resultado;
+		resultado = this.numero1 + this.numero2;
+		return resultado;
+	}
 
 }

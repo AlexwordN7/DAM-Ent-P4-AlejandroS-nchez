@@ -27,4 +27,9 @@ public class NumeroTest {
 	public void comprobarnumero2() {
 		assertEquals(5,numero.getNumero2());
 	}
+	
+	@Test
+	public void comprobarsuma() {
+		assertEquals(6,numero.suma());
+	}
 }
