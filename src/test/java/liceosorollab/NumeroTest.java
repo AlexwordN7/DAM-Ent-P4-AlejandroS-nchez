@@ -37,4 +37,9 @@ public class NumeroTest {
 	public void comprobarresta() {
 		assertEquals(-4,numero.resta());
 	}
+	
+	@Test
+	public void comprobarMultiplicar() {
+		assertEquals(5,numero.multiplicar());
+	}
 }
