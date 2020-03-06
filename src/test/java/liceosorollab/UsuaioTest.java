@@ -1,5 +1,22 @@
 package test.java.liceosorollab;
 
-public class UsuaioTest {
+import static org.junit.Assert.assertEquals;
+import java.time.LocalDate;
+import org.junit.Before;
+import org.junit.Test;
+import main.java.liceosorollab.Usuario;
 
+public class UsuaioTest {
+	
+private Usuario usuario;
+	
+	@Before
+	public void Before() {
+		usuario = new Usuario("Yanella","Astudillo Ortiz", LocalDate.of(2000, 05, 07), 18);
+	}
+	
+	@Test
+	public void comprobarNombre() {
+		assertEquals("Yanella", usuario.getNombre());
+	}
 }
