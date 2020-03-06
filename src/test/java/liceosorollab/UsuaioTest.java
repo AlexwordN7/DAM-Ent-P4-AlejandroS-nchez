@@ -19,4 +19,9 @@ private Usuario usuario;
 	public void comprobarNombre() {
 		assertEquals("Yanella", usuario.getNombre());
 	}
+	
+	@Test
+	public void comprobarApellido() {
+		assertEquals("Astudillo Ortiz", usuario.getApellidos());
+	}
 }
