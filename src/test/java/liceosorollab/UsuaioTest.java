@@ -41,4 +41,8 @@ private Usuario usuario;
 		assertEquals(18,usuario.getIdentificador());
 	}
 	
+	@Test
+	public void comprobarNombreMayusculas() {
+		assertEquals("YANELLA",usuario.nombreMayusculas());
+	}
 }
