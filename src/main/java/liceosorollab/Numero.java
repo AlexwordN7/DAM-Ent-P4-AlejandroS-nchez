@@ -59,5 +59,11 @@ public class Numero {
 		resultado = this.numero1 * this.numero2;
 		return resultado;
 	}
+	
+	public int dividir() {
+		int resultado;
+		resultado = this.numero1 / this.numero2;
+		return resultado;
+	}
 
 }

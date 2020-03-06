@@ -42,4 +42,9 @@ public class NumeroTest {
 	public void comprobarMultiplicar() {
 		assertEquals(5,numero.multiplicar());
 	}
+	
+	@Test
+	public void comprobarDividir() {
+		assertEquals(0,numero.dividir());
+	}
 }
