@@ -32,4 +32,9 @@ public class NumeroTest {
 	public void comprobarsuma() {
 		assertEquals(6,numero.suma());
 	}
+	
+	@Test
+	public void comprobarresta() {
+		assertEquals(-4,numero.resta());
+	}
 }
