@@ -24,4 +24,9 @@ private Usuario usuario;
 	public void comprobarApellido() {
 		assertEquals("Astudillo Ortiz", usuario.getApellidos());
 	}
+	
+	@Test
+	public void comprobarNombreCompleto() {
+		assertEquals("Yanella Astudillo Ortiz", usuario.getNombre()+ " "+usuario.getApellidos());
+	}
 }
