@@ -22,4 +22,9 @@ public class NumeroTest {
 	public void comprobarnumero1() {
 		assertEquals(1,numero.getNumero1());
 	}
+	
+	@Test
+	public void comprobarnumero2() {
+		assertEquals(5,numero.getNumero2());
+	}
 }

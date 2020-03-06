@@ -34,5 +34,12 @@ public class Numero {
 		return correcto;
 	}
 	
+	public boolean numero2() {
+		boolean correcto = true;
+		if(this.numero2 == this.numero2) {
+			correcto = true;
+		}
+		return correcto;
+	}
 
 }
