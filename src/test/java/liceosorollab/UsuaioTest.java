@@ -45,4 +45,10 @@ private Usuario usuario;
 	public void comprobarNombreMayusculas() {
 		assertEquals("YANELLA",usuario.nombreMayusculas());
 	}
+	
+	@Test
+	public void compruebaNombreMinusculas() {
+		
+		assertEquals("yanella", usuario.nombreMinisculas());
+	}
 }
