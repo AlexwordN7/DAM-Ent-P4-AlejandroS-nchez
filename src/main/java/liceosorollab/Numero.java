@@ -65,5 +65,11 @@ public class Numero {
 		resultado = this.numero1 / this.numero2;
 		return resultado;
 	}
+	
+	public int potencia() {
+		int resultado;
+		resultado = (int) Math.pow(this.numero1,this.numero2);
+		return resultado;
+	}
 
 }

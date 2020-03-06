@@ -47,4 +47,9 @@ public class NumeroTest {
 	public void comprobarDividir() {
 		assertEquals(0,numero.dividir());
 	}
+	
+	@Test
+	public void comprobarPotencia() {
+		assertEquals(1,numero.potencia());
+	}
 }
