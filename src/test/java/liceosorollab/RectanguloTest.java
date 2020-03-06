@@ -10,7 +10,7 @@ public class RectanguloTest {
 	
 	@Before
 	public void Before() {
-		rectangulo=new Rectangulo(6,9);
+		rectangulo=new Rectangulo(5,5);
 	}
 	
 	@Test
@@ -20,6 +20,16 @@ public class RectanguloTest {
 	
 	@Test
 	public void comprobarPerimetro() {
-		assertEquals(30, rectangulo.comproPerimetro());
+		assertEquals(20, rectangulo.comproPerimetro());
+	}
+	
+	@Test
+	public void comprobarArea() {
+		assertEquals(25, rectangulo.comproArea());
+	}
+	
+	@Test
+	public void comprobarTamañoRectangulo() {
+		assertEquals(7, rectangulo.comproTamano());
 	}
 }

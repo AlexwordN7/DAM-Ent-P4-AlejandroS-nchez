@@ -5,8 +5,8 @@ public class Rectangulo {
 	private int lado2;
 	
 	public Rectangulo(int lado1, int lado2) {
-		this.lado1=4;
-		this.lado2=4;
+		this.lado1=lado1;
+		this.lado2=lado2;
 	}
 	
 	public int getlado1() {
@@ -32,8 +32,19 @@ public class Rectangulo {
 	}
 	
 	public int comproPerimetro() {
-		int resultado=0;
-		resultado=lado1+lado2;
-		return resultado;
+		int total=0;
+		total=2*(this.lado1+this.lado2);
+		return total;
+	}
+	
+	public int comproArea() {
+		int area = this.lado1* this.lado2;
+		System.out.println("El area es: " + area);
+		return area;
+	}
+	
+	public int comproTamano() {
+		int diagonal=(int )Math.sqrt(Math.pow(this.lado1, 2)+(Math.pow(this.lado2, 2)));
+		return diagonal;
 	}
 }
