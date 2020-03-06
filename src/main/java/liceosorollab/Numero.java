@@ -71,5 +71,20 @@ public class Numero {
 		resultado = (int) Math.pow(this.numero1,this.numero2);
 		return resultado;
 	}
+	
+	public boolean multiplo() {
+		boolean resultado = false;
+		if(this.numero1 >= this.numero2) {
+			if(this.numero1 % this.numero2 == 0) {
+				resultado = true;
+			}
+		}
+		else{
+			if(this.numero2 % this.numero1 == 0) {
+				resultado = true;
+			}
+		}
+	return resultado;
+	}
 
 }
