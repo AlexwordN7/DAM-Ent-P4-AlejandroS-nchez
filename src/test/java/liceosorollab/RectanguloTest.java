@@ -17,4 +17,9 @@ public class RectanguloTest {
 	public void comprobarLadosIguales() {
 		assertEquals(false,rectangulo.comprobarLadosIguales());
 	}
+	
+	@Test
+	public void comprobarPerimetro() {
+		assertEquals(30, rectangulo.comproPerimetro());
+	}
 }

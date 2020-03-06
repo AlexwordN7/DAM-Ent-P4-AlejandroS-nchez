@@ -31,4 +31,9 @@ public class Rectangulo {
 		return iguales;
 	}
 	
+	public int comproPerimetro() {
+		int resultado=0;
+		resultado=lado1+lado2;
+		return resultado;
+	}
 }
