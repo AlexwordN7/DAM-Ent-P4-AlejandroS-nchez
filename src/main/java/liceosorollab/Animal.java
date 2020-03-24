@@ -29,4 +29,8 @@ public class Animal {
 	public void setRaza(String raza) {
 		this.raza = raza;
 	}
+	
+	public double getPeso() {
+		return peso;
+	}
 }
