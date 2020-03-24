@@ -9,11 +9,16 @@ public class AnimalTest {
 	
 	@Before
 	public void Before() {
-		animal = new Animal ("mamifero","gato",4.5,2,"negro");
+		animal = new Animal ("mamifero","perro",7.4,4,"caqui");
 	}
 	
 	@Test
 	public void comprobarEspecie() {
 		assertEquals("mamifero", animal.getEspecie());
+	}
+	
+	@Test
+	public void comprobarRaza() {
+		assertEquals("perro", animal.getRaza());
 	}
 }

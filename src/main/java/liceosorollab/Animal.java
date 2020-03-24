@@ -20,6 +20,13 @@ public class Animal {
 	public void setEspecie(String especie) {
 
 		this.especie = especie;
+	}
+	
+	public String getRaza() {
+		return raza;
+	}
 
+	public void setRaza(String raza) {
+		this.raza = raza;
 	}
 }
