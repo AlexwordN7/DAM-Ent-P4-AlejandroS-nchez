@@ -33,4 +33,16 @@ public class Animal {
 	public double getPeso() {
 		return peso;
 	}
+	
+	public void setPeso(double peso) {
+		this.peso = peso;
+	}
+
+	public int getEdad() {
+		return edad;
+	}
+
+	public void setEdad(int edad) {
+		this.edad = edad;
+	}
 }
