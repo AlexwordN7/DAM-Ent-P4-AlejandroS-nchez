@@ -51,4 +51,14 @@ private Usuario usuario;
 		
 		assertEquals("yanella", usuario.nombreMinisculas());
 	}
+	
+	@Test
+	public void compruebanombreEnteroMayuscula() {
+		assertEquals("ALEJANDRO SANCHEZ FERNANDEZ",usuario.nombreEnteroMayuscula());
+	}
+	
+	@Test
+	public void compruebanombreEnteroMinuscula() {
+		assertEquals("alejandro sanchez fernandez",usuario.nombreEnteroMinuscula());
+	}
 }

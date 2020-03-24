@@ -71,4 +71,12 @@ public class Usuario {
 	public String nombreMinisculas() {
 		return this.nombre.toLowerCase();
 	}
+	
+	public String nombreEnteroMayuscula() {
+		return this.nombre.toUpperCase()+" "+this.apellidos.toUpperCase();
+	}
+	
+	public String nombreEnteroMinuscula() {
+		return this.nombre.toLowerCase()+" "+this.apellidos.toLowerCase();
+	}
 }
